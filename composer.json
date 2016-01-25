@@ -2,10 +2,13 @@
     "name": "thopra/styleguide-kickstart",
     "description": "Use this package as a kickstart to create a new style guide.",
     "repositories": [
-        { "type": "vcs", "url": "https://github.com/thopra/styleguide-frontend.git" }
+        { "type": "vcs", "url": "https://github.com/thopra/styleguide.git" },
+        { "type": "vcs", "url": "https://github.com/thopra/styleguide-template-default.git" },
+        { "type": "vcs", "url": "https://github.com/thopra/styleguide-template-installer.git" }
     ],
     "license": "MIT",
     "require": {
+        "thopra/styleguide":"*",
     	"thopra/styleguide-frontend":"*"
     },
     "authors": [
@@ -15,5 +18,7 @@
             "homepage": "http://www.thomas-prangenberg.de"
         }
     ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "target-dir": "styleguide"
 }
