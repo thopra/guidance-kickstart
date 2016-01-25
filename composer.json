@@ -8,7 +8,7 @@
     ],
     "license": "MIT",
     "require": {
-        "thopra/styleguide":"*",
+        "thopra/styleguide":"dev-development",
     	"thopra/styleguide-template-default":"*"
     },
     "authors": [
@@ -20,5 +20,8 @@
     ],
     "minimum-stability": "dev",
     "prefer-stable": true,
-    "target-dir": "styleguide"
+    "target-dir": "styleguide",
+    "config": {
+        "vendor-dir": "../vendor"
+    }
 }
