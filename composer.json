@@ -9,7 +9,7 @@
     "license": "MIT",
     "require": {
         "thopra/styleguide":"*",
-    	"thopra/styleguide-frontend":"*"
+    	"thopra/styleguide-template-default":"*"
     },
     "authors": [
         {
