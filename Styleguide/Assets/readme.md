@@ -1,0 +1,1 @@
+Use this directory to store assets only used in the styleguide, such as placeholder images.

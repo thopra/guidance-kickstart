@@ -1,0 +1,1 @@
+Files in this directory should be used as dummies/mockups.
