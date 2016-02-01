@@ -1,1 +1,0 @@
-Use this directory to overwrite the default templates of the styleguide frontend.

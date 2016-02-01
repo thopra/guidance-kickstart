@@ -1,0 +1,24 @@
+{
+	"title": "Example Styleguide",
+	"cache": {
+		"enable": true,
+		"dir": "guidance/cache/",
+		"lifetime": 5
+	},
+	"settings": {
+		"loadPreviewsAtStart": 3,
+		"enableValidation": true
+	},
+	"sources": [
+		{
+			"key": "example",
+			"title": "Example Styles",
+			"dir":"assets/css",
+			"partialDir": "../Partials",
+			"partialType": "php",
+			"resources": [
+				"Assets/css/main.css"
+			] 
+		}
+	]
+}
