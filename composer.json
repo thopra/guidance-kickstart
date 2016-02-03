@@ -3,10 +3,12 @@
     "description": "Use this package as a kickstart to create a new style guide.",
     "repositories": [
         { "type": "vcs", "url": "https://github.com/thopra/styleguide.git" }
+        { "type": "vcs", "url": "https://github.com/thopra/styleguide-template-default.git" }
+        { "type": "vcs", "url": "https://github.com/thopra/styleguide-template-installer.git" }
     ],
     "license": "MIT",
     "require": {
-        "thopra/styleguide":"dev-development"
+        "thopra/styleguide-template-default":"dev-guidance"
     },
     "authors": [
         {
