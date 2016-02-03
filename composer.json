@@ -2,13 +2,13 @@
     "name": "thopra/guidance-kickstart",
     "description": "Use this package as a kickstart to create a new style guide.",
     "repositories": [
-        { "type": "vcs", "url": "https://github.com/thopra/styleguide.git" }
-        { "type": "vcs", "url": "https://github.com/thopra/styleguide-template-default.git" }
-        { "type": "vcs", "url": "https://github.com/thopra/styleguide-template-installer.git" }
+        { "type": "vcs", "url": "https://github.com/thopra/styleguide.git" },
+        { "type": "vcs", "url": "https://github.com/thopra/guidance.git" },
+        { "type": "vcs", "url": "https://github.com/thopra/guidance-installer.git" }
     ],
     "license": "MIT",
     "require": {
-        "thopra/styleguide-template-default":"dev-guidance"
+        "thopra/guidance":"dev-master"
     },
     "authors": [
         {
